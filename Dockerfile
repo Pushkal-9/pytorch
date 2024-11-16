@@ -4,7 +4,6 @@
 # - https://docs.docker.com/build/dockerfile/frontend/#stable-channel
 ARG BASE_IMAGE=ubuntu:22.04
 ARG PYTHON_VERSION=3.11
-
 FROM ${BASE_IMAGE} as dev-base
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
         build-essential \
