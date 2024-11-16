@@ -1,7 +1,6 @@
 # syntax=docker/dockerfile:1
 
 # NOTE: Building this image require's docker version >= 23.0.
-#
 # For reference:
 # - https://docs.docker.com/build/dockerfile/frontend/#stable-channel
 
