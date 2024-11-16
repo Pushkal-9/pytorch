@@ -2,7 +2,6 @@
 # NOTE: Building this image require's docker version >= 23.0.
 # For reference:
 # - https://docs.docker.com/build/dockerfile/frontend/#stable-channel
-
 ARG BASE_IMAGE=ubuntu:22.04
 ARG PYTHON_VERSION=3.11
 FROM ${BASE_IMAGE} as dev-base
